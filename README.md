@@ -1,46 +1,39 @@
-# Desafio Alura Store
+# Challenge Alura Store
 
-Este projeto fictício foi desenvolvido para o challenge da Alura, com o objetivo de auxiliar o Senhor João, proprietário da rede Alura Store, a decidir qual das lojas seria posta a venda.
+This is a fictional project created for the Alura data analysis challenge. The goal was to help Mr. João, owner of the Alura Store chain, decide which store should be put up for sale.
 
-Com base na análise dos dados de vendas, desempenho e feedback dos clientes, foi feita uma investigação minuciosa para identificar qual loja estava tendo o pior desempenho. A partir dessa análise, foi possível fornecer uma recomendação final fundamentada em dados concretos.
+## Project Objectives
 
-## Objetivos do Projeto
+- Evaluate the performance of the four Alura Store locations: Conduct a detailed analysis of sales data, performance metrics, and customer reviews for each store.
+- Identify the lowest performing store: Determine which of the four stores is showing the poorest results based on the analyzed criteria.
+- Present a clear, data-backed recommendation to Mr. João: Provide a final recommendation, supported by concrete data, on which store should be sold or improved.
 
-Avaliar o desempenho das quatro lojas da Alura Store: Realizar uma análise detalhada dos dados de vendas, desempenho e avaliações dos clientes para cada uma das lojas.
-Identificar a loja com menor performance: Determinar qual das quatro lojas está apresentando os piores resultados com base nos critérios analisados.
-Apresentar uma recomendação clara e embasada para o Senhor João: Fornecer uma recomendação final, fundamentada em dados concretos, sobre qual loja deve ser vendida ou melhorada.
+## Project Steps
 
-## Etapas do Projeto
+### 1. Data Analysis
+Several metrics were analyzed for each store, including:
 
-### 1. Análise de Dados
+- Total revenue
+- Best-selling product categories
+- Customer reviews
+- Top-selling products
+- Average shipping cost
+- Geographic analysis
 
-Diversas métricas foram analisadas para cada loja, incluindo:
+### 2. Data Visualization
+To communicate insights clearly and objectively, charts were created using the Matplotlib and Seaborn libraries, including:
 
-- Faturamento total
-- Categorias de produtos mais vendidas
-- Avaliações dos clientes
-- Produtos mais vendidos
-- Custo médio de frete
-- Análise geográfica
+- Bar charts
+- Column charts
+- Pie charts
 
-### 2. Visualização dos Dados
+### 3. Final Recommendation
+Based on the analyses and visualizations, a report was prepared in the file Challenge_Alura_Store.ipynb, explaining which store Mr. João should sell and the reasons for the choice, supported by the data.
 
-Para uma comunicação visual clara e objetiva dos insights encontrados, foram criados gráficos utilizando as bibliotecas Matplotlib e Seaborn, incluindo:
+## Result
 
-Para comunicar os insights de forma clara e objetiva, foram criados gráficos utilizando as bibliotecas Matplotlib e Seaborn, como:
+Upon completing the project, it was possible to identify the least efficient store based on real data from this fictional business. From this analysis, a solid, data-driven recommendation was offered to assist Mr. João in making his decision.
 
-- Gráficos de barras
-- Gráficos de colunas
-- Gráficos de pizza
+## Note
 
-### 3. Recomendação Final
-
-Com base nas análises e visualizações, foi elaborado um relatório no arquivo Challenge_Alura_Store.ipynb, explicando qual loja o Senhor João deve vender e os motivos da escolha, fundamentados nos dados.
-
-## Resultado
-
-Ao concluir o projeto, foi possível identificar a loja menos eficiente com base em dados reais do negócio fictício. A partir dessa análise, foi oferecida uma recomendação sólida e fundamentada em dados para auxiliar o Senhor João na tomada de decisão.
-
-## Observações
-
-Este projeto foi desenvolvido como parte de um desafio de análise de dados promovido pela Alura. Os dados utilizados são fictícios e voltados exclusivamente para fins educacionais.
+This project was developed as part of a data analysis challenge promoted by Alura. The data used is fictional and intended exclusively for educational purposes.
